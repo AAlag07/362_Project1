@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
+        <link rel="stylesheet" media="screen" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topper">
+            <h2>
+                NEOLUNA PUBLISHING
+            </h2>
+        </div>
+        <br>
+        <div class="opener">
+            <h3>
+                Keep up to date with the best news on the cloud!
+            </h3>
+        </div>
+        <br> <br>
+        <div class="center">
+            <p> Please provide us some information regarding you so that we can better improve our newsletter to you! </p>
+        </div>
+        <br> <br>
+        <div class="inp-box">
+            <form name="form1" action="/action_page.php" method="get">
+                <label for="firstnm"> First Name:</label>
+                <input type="text" id="firstnm" name="firstnm" placeholder=""> <br> <br>
+                <label for="lastnm"> Last Name:</label>
+                <input type="text" id="lastnm" name="lastnm" placeholder=""> <br> <br>
+                <label for="userage">Age:</label>
+                <input type="number" id="userage" name="userage" min="13" max="65"> <br> <br>
+                <label for="email"> Email: </label>
+                <input type="text" id="email" name="email" placeholder=""> <br> <br>
+                <input type="button" value="Submit">
+            </form>
+            <br>
+            <p>By submitting this form, you are agreeing to our <a href="#"> Terms and Conditions</a> and <a href="#"> Privacy Policy</a> </p>
+            <br> <br>
+            <button id="quote"> Generate a quote sourced from our editor's here! </button>
+            <br>
+            <div class="quotes">
+                <p id="quotes"></p>
+                <p id="author"></p>
+            </div>
+        </div>
+    </body>
+</html>
