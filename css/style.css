@@ -95,7 +95,7 @@ button {
   .inp-box {
     width: 70%;
 }
-
+}
 @media screen and (min-width: 700px) {
   h2 {
     font-size: 35px;
